@@ -1,8 +1,9 @@
 def positive_sum(arr)
-  $total
-  while $i <= arr.length
-    if arr[$i] > 0
-      $total += arr[$i]
+  total = 0
+  arr.each do |x|
+    if x > 0
+      total += x
     end
   end
+  total
 end
