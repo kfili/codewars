@@ -1,8 +1,8 @@
 def countSheeps array
-  for i in 0..array.size
-    if array[i]
-      count = count + 1
-      p "if ran #{i}"
+  count = 0
+  array.each do |sheep|
+    if sheep
+      count += 1
     end
   end
   count
