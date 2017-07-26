@@ -1,5 +1,4 @@
-function greet(name){
-  if(name === "Johnny")
-    return "Hello, my love!";
-  return "Hello, " + name + "!";
-}
+def greet(name)
+  return "Hello, my love!" if name == "Johnny"
+  "Hello, #{name}!"
+end
