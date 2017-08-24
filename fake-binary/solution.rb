@@ -1,0 +1,3 @@
+def fake_bin(s)
+  # Insert you code here...
+end
