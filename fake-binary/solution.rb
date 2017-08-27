@@ -1,3 +1,3 @@
 def fake_bin(s)
-  # Insert you code here...
+  s.chars.map { |i| i.to_i < 5 ? 0 : 1}.join
 end
