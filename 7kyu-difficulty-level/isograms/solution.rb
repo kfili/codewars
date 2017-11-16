@@ -1,3 +1,4 @@
 def is_isogram(string)
-  #your code here
+  a = string.downcase.chars
+  a.uniq.length == a.length
 end
